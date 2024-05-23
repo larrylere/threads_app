@@ -31,7 +31,7 @@ function Bottombar() {
                 className="object-contain"
               />
 
-              <p className="text-subtle-medium text-light-1 max-sm:hidden">
+              <p className="text-subtle-medium text-light-1 max-sm:text-xs shrink-0 w-7 italic hidden ">
                 {link.label.split(/\s+/)[0]}
               </p>
             </Link>
