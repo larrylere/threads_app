@@ -25,7 +25,12 @@ async function Home({
 
   return (
     <>
-      <h1 className="head-text text-left">Home</h1>
+      <h1 className="head-text text-left text-sm text-sky-300">
+        Matured Mindz
+      </h1>
+      <sup className="text-rose-800 text-xs">Create a post | </sup>
+      <sup className="text-yellow-500">Join a community | </sup>
+      <sup className="text-green-500">Create an organization.</sup>
 
       <section className="mt-9 flex flex-col gap-10">
         {result.posts.length === 0 ? (
